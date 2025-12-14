@@ -3,95 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rafaell Graciliano — Analista de Infraestrutura</title>
+  <title> Rafaell Graciliano — Analista de Infraestrutura </title>
   <meta name="description" content="Portfolio de Rafaell Graciliano: suporte e monitoramento, CFTV, ferramentas MONI, iVMS, Sim Next, Python e AWS iniciante. Em transição para Analista de Infraestrutura Pleno.">
-  <style>
-    /* Tudo em CSS interno para manter 100% sem dependências externas */
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #f8f9fa;
-      margin: 0;
-      padding: 20px;
-    }
-    header {
-      background: linear-gradient(135deg, #0d6efd, #0a58ca);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: 2.5em;
-    }
-    h2 {
-      color: #0d6efd;
-      border-bottom: 2px solid #0d6efd;
-      padding-bottom: 8px;
-      margin-top: 40px;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    }
-    p, ul {
-      margin-bottom: 20px;
-    }
-    a {
-      color: #0d6efd;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    blockquote {
-      font-style: italic;
-      background: #e9ecef;
-      border-left: 5px solid #0d6efd;
-      padding: 15px 20px;
-      margin: 25px 0;
-      border-radius: 0 8px 8px 0;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .skills-bar {
-      background: #e9ecef;
-      border-radius: 8px;
-      overflow: hidden;
-      margin: 10px 0;
-    }
-    .skills-bar span {
-      display: block;
-      height: 24px;
-      background: #0d6efd;
-      text-align: right;
-      padding-right: 10px;
-      color: white;
-      line-height: 24px;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      color: #666;
-      font-size: 0.9em;
-    }
-    @media (max-width: 768px) {
-      h1 { font-size: 2em; }
-      main { padding: 20px; }
-    }
-  </style>
+
 </head>
 <body>
   <header>
@@ -120,15 +34,14 @@
       </blockquote>
       <p><strong>Brasília, DF</strong> — Disponível para remoto e híbrido.</p>
 
-      <h2>Foco atual</h2>
-      <ul>
+  <h2>Foco atual</h2>
+     <ul>
         <li><strong>Infraestrutura</strong>: Sistemas, redes, monitoramento e resposta a incidentes → Objetivo Pleno</li>
         <li><strong>Automação e Cloud</strong>: Python básico, AWS fundamentos, dashboards com MetaBase → Em evolução</li>
         <li><strong>Observabilidade</strong>: Zabbix básico, métricas operacionais e gráficos de saúde → Em prática</li>
       </ul>
     </section>
-
-    <section id="experiencia">
+  <section id="experiencia">
       <h2>Experiência profissional</h2>
       <ul>
         <li>
@@ -151,14 +64,68 @@
         </li>
       </ul>
 
-      <h2>Ferramentas e ambientes</h2>
+   <h2>Ferramentas e ambientes</h2>
       <p>
         MONI • iVMS • Sim Next • Zabbix (iniciante) • MetaBase (iniciante) • Redes (iniciante) • Python (iniciante) • AWS (iniciante)
       </p>
     </section>
 
-    <section id="skills">
+  <section id="skills">
       <h2>Competências técnicas</h2>
       <ul>
         <li>Monitoramento e resposta a incidentes
-          <div class="skills-bar"><span style="
+          <div class="skills-bar"><span style="width:72%;">72%</span></div>
+        </li>
+        <li>Zabbix — Fundamentos
+          <div class="skills-bar"><span style="width:35%;">35%</span></div>
+        </li>
+        <li>Redes — Camadas & troubleshooting
+          <div class="skills-bar"><span style="width:38%;">38%</span></div>
+        </li>
+        <li>Python — Automação básica
+          <div class="skills-bar"><span style="width:32%;">32%</span></div>
+        </li>
+        <li>AWS — Fundamentos de Cloud
+          <div class="skills-bar"><span style="width:28%;">28%</span></div>
+        </li>
+        <li>MetaBase — Dashboards
+          <div class="skills-bar"><span style="width:30%;">30%</span></div>
+        </li>
+      </ul>
+
+   <h2>Diferenciais</h2>
+      <ul>
+        <li><strong>Rigor operacional</strong>: Consistência em ambientes críticos e foco em redução de riscos.</li>
+        <li><strong>Documentação clara</strong>: Playbooks e registros que aceleram diagnóstico e transferência de conhecimento.</li>
+        <li><strong>Aprendizado ativo</strong>: Evolução contínua em cloud, automação e observabilidade.</li>
+      </ul>
+    </section>
+
+  <section id="projetos">
+      <h2>Resultados e iniciativas</h2>
+   <ul>
+        <li>Padronização de alertas e triagem, reduzindo tempo de reação em centrais de monitoramento.</li>
+        <li>Criação de checklists de saúde de sistemas e procedimentos de contingência.</li>
+        <li>Prototipagem de dashboards (MetaBase) para visão rápida de incidentes e SLA.</li>
+      </ul>
+      <p>Disponível para detalhar métricas e exemplos práticos em entrevista.</p>
+
+  <h2>O que busco</h2>
+      <p>Uma equipe onde disciplina, colaboração e melhoria contínua são parte da cultura. Quero contribuir com confiabilidade, documentação viva e monitoramento que antecipa problemas.</p>
+      <p><strong>Objetivo:</strong> Analista de Infraestrutura Pleno.</p>
+    </section>
+ <section id="contato">
+      <h2>Contato</h2>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:rgraciliano23@gmail.com">rgraciliano23@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rafaell-graciliano-25134a1bb/" target="_blank" rel="noopener">linkedin.com/in/rafaell-graciliano-25134a1bb</a></li>
+        <li><strong>Disponibilidade:</strong> Remoto | Híbrido • Brasília/DF</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 — Rafaell Graciliano. Feito com dedicação e foco no próximo nível.</p>
+  </footer>
+</body>
+</html>
